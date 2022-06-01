@@ -20,3 +20,4 @@ const eqArrays = function (actualArray, ExpectedArray) {
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 assertEqual(eqArrays([4, 2, 3], [1, 2, 3]), true);
 assertEqual(eqArrays([1, 2, "hello"], [1, 2, "hello"]), true);
+assertEqual(eqArrays([1], [5]), true);
